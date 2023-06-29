@@ -21,7 +21,7 @@ public class AppTest {
     Calculate calc =new Calculate();
 
     System.out.println("Sum of 2 and 3 is"+calc.sum(2,3)+"Average is "+calc.sum(2,3)/2+"\n");
-    System.out.println("Sum of 1 and 10 is"+calc.sum2(1,10)+"Average is "+calc.sum2(1,10)/10+"\n");
+    System.out.println("Sum of 1 to 10 is"+calc.sum2(1,10)+"Average is "+calc.sum2(1,10)/10+"\n");
     System.out.println("Sum of odd of 1 to 10 is"+calc.sumodd(1,10)+"Average is "+ calc.sumeven(1,10)+"\n");
   }
 }
